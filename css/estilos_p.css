@@ -1,0 +1,91 @@
+   body {
+       font-family: system-ui, sans-serif;
+       background: #f5f7fa;
+       color: #333;
+       line-height: 1.6;
+   }
+
+   .navbar {
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+       padding: 16px;
+       background: linear-gradient(90deg, #667eea, #764ba2);
+       color: white;
+   }
+
+   .navbar a {
+       color: white;
+       text-decoration: none;
+       font-weight: 500;
+       padding: 8px 16px;
+       border-radius: 6px;
+       transition: 0.2s;
+   }
+
+   .navbar a:hover {
+       background: rgba(255, 255, 255, 0.2);
+   }
+
+   .hero {
+       text-align: center;
+       padding: 60px 20px;
+       background: white;
+   }
+
+   .hero h1 {
+       font-size: 2.5rem;
+       color: #1e40af;
+       margin-bottom: 10px;
+   }
+
+   .hero p {
+       font-size: 1.1rem;
+       color: #555;
+   }
+
+   .propuestas {
+       max-width: 900px;
+       margin: 40px auto;
+       padding: 0 20px;
+   }
+
+   .propuestas h2 {
+       text-align: center;
+       font-size: 2rem;
+       margin-bottom: 30px;
+       color: #1e40af;
+   }
+
+   .propuesta-card {
+       background: white;
+       padding: 24px;
+       margin-bottom: 20px;
+       border-radius: 12px;
+       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+   }
+
+   .propuesta-card h3 {
+       color: #1e40af;
+       margin-bottom: 8px;
+   }
+
+   .footer {
+       display: flex;
+       justify-content: space-around;
+       background: #1a1a1a;
+       color: #ccc;
+       padding: 20px;
+       margin-top: 60px;
+       font-size: 14px;
+   }
+
+   body {
+       display: flex;
+       flex-direction: column;
+       min-height: 100vh;
+   }
+
+   main {
+       flex: 1;
+   }

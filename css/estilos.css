@@ -68,16 +68,23 @@ button {
     padding: 0.6em;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 14px 24px;
-    margin: 0;
-    background: linear-gradient(90deg, #667eea, #764ba2);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-    font-family: system-ui, sans-serif;
-}
+   .navbar {
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+       padding: 16px;
+       background: linear-gradient(90deg, #66eaea, #4390ae);
+       color: white;
+   }
+
+   .navbar a {
+       color: black;
+       text-decoration: none;
+       font-weight: 500;
+       padding: 8px 16px;
+       border-radius: 6px;
+       transition: 0.2s;
+   }
 
 .btn {
     color: white;
@@ -110,4 +117,18 @@ button {
 .footer p:hover {
     color: #fff;
     transition: 0.3s;
+}
+
+.btn-prop{
+    border-radius: 10px;
+    background-color: #4390ae;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.btn-prop:hover {
+    background: linear-gradient(90deg, #66eaea, #4390ae);
+    transform: translateY(-2px);
 }
